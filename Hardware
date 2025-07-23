@@ -1,0 +1,42 @@
+# Hardware Requirements
+
+This project is designed to run on a Raspberry Pi and uses physical GPIO buttons for control. Below is the full list of hardware components required or recommended.
+
+---
+
+## Required Components
+
+| Component                      | Description                                                                 |
+|-------------------------------|-----------------------------------------------------------------------------|
+| Raspberry Pi 4 Model B | Main computing unit with GPIO and HDMI support                              |
+| MicroSD Card (16GB or larger) | Storage for Raspberry Pi OS and media files                                |
+| HDMI Display (TV/Monitor)     | Fullscreen media output device                                              |
+| 3 x Momentary Push Buttons    | For switching between image, video, and playlist modes via GPIO            |
+| Male-to-Female Jumper Wires   | To connect buttons to GPIO pins and ground                                 |
+| Power Supply (5V 3A recommended) | To power the Raspberry Pi reliably                                         |
+
+---
+
+## Recommended Accessories
+
+| Component              | Description                                               |
+|------------------------|-----------------------------------------------------------|
+| Breadboard             | For prototyping GPIO circuits without soldering           |
+| Resistors (10kΩ)       | Optional pull-down resistors for extra button stability   |
+| USB Keyboard/Mouse     | For debugging and ESC key input (optional after setup)    |
+| USB Audio Adapter      | If analog audio output is needed with better quality      |
+| Heatsink/Fan Case      | For thermal management during extended use                |
+| External Speakers      | If using analog or HDMI audio for video playback          |
+
+---
+
+## GPIO Pin Assignments (BCM Numbering)
+
+| Button Function  | GPIO Pin (BCM) | Connection Notes                        |
+|------------------|----------------|-----------------------------------------|
+| Image Mode       | 17             | Connect one side to GPIO 17, other to GND |
+| Video Mode       | 27             | Connect one side to GPIO 27, other to GND |
+| Playlist Mode    | 22             | Connect one side to GPIO 22, other to GND |
+
+> Buttons use internal pull-up resistors; no external pull-ups are needed. When pressed, the GPIO pin is pulled LOW.
+
