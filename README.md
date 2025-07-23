@@ -64,3 +64,5 @@ This Python script is a media player designed for the Raspberry Pi. It plays ima
 
 The script is modular, combining Pygame for images, VLC for video, and GPIO for physical control. It supports scheduled playback and allows for flexible media management via simple playlist files.
 
+
+FUll code under "Code" File
