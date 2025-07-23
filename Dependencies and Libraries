@@ -1,0 +1,14 @@
+Dependencies and Libraries 
+
+# Required Libraries and Dependencies
+
+This project depends on both Python libraries and system-level packages.
+
+---
+
+## 1. Python Libraries (Install via `pip3`)
+
+Install all required Python libraries:
+
+```bash
+pip3 install pygame python-vlc RPi.GPIO
