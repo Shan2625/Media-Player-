@@ -4,7 +4,7 @@ This project is designed to run on a **Raspberry Pi 4 Model B** and is controlle
 
 Required Compnents
 
-Raspberry Pi 4 Model B:** The core computing unit.
+Raspberry Pi 4 Model B: The core computing unit.
 MicroSD Card (16GB or larger): Used for the operating system (Raspberry Pi OS) and to store all your media files.
 HDMI Display (TV or Monitor): A screen for displaying the media output.
 3 Momentary Push Buttons: These buttons are used to switch between image, video, and playlist modes.
