@@ -25,7 +25,7 @@ A Python-based fullscreen media player for Raspberry Pi that plays images and vi
 
 # 🚀 Getting Started :
 
-Prerequisites
+Prerequisites:
 
 A Raspberry Pi with Raspberry Pi OS.
 
