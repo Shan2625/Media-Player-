@@ -38,9 +38,8 @@ Install the required Python packages:
 pip3 install pygame python-vlc RPi.GPIO
 
 Install the necessary system libraries:
+You can find them in : 📋 [Dependencies Installation Guide](Docs/Dependencies.md)
 
-sudo apt update
-sudo apt install python3-vlc vlc libvlc-dev python3-pygame x11-utils alsa-utils
 
 
 🛠️ Hardware Setup :
@@ -50,6 +49,8 @@ This project supports an optional Real-Time Clock (RTC) module and GPIO buttons 
 RTC Module: For accurate timekeeping, especially when offline.
 
 GPIO Buttons: For manual playlist selection.
+
+Hardware required can be found in : [Hardware requirements](Docs/Hardware requirements.md)
 
 Note: Detailed instructions for setting up the RTC module and wiring the GPIO buttons can be found in Set up folder in their
 respective RTC Setup and GPIO Button Setup file.
