@@ -21,6 +21,8 @@ A Python-based fullscreen media player for Raspberry Pi that plays images and vi
 
 - Easy Exit: Press the ESC key to cleanly exit the application.
 
+- Auto start on boot 
+
 🚀 Getting Started :
 
 Prerequisites
