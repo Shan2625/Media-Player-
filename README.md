@@ -82,8 +82,9 @@ python3 /home/pi/media_display_project/media_display.py
 To automatically start the media player on boot, open your crontab:
 
 
-crontab -e
-``And add the following line at the end of the file:
+```crontab -e```
+
+And add the following line at the end of the file:
 
  Auto-start media display application :
  ```
