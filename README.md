@@ -56,9 +56,9 @@ GPIO Buttons: For manual playlist selection.
 
 Hardware required can be found in : [Hardware requirements](Docs/Hardware.md)
 
-Note: Detailed instructions for setting up the RTC module and wiring the GPIO buttons can be found in :
-RTC Setup can be found in :[RTC Setup](Set_Up/RTC_Setup.md)
-GPIO Buttons Setup can be found in :[GPIO Buttons Setup](Set_Up/GPIO_Buttons_Setup.md)
+Note: Detailed instructions for setting up:
+RTC can be found in :[RTC Setup](Set_Up/RTC_Setup.md)
+GPIO Buttons can be found in :[GPIO Buttons Setup](Set_Up/GPIO_Buttons_Setup.md)
 
 
 # ⚙️ Usage :
