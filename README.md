@@ -55,13 +55,14 @@ RTC Module: For accurate timekeeping, especially when offline.
 
 GPIO Buttons: For manual playlist selection.
 
-Detailed instructions for setting up the RTC module and wiring the GPIO buttons can be found in the HARDWARE.md file.
+Note: Detailed instructions for setting up the RTC module and wiring the GPIO buttons can be found in the HARDWARE.md file.
 
 ⚙️ Usage
 
 Place Your Media: Add your image and video files to the project folder.
 
-Create Playlists: Create plain text files (e.g., morning, afternoon, video1) in the project directory. Each file should contain the absolute paths to your media files, one per line. For images, you can specify a display duration in seconds:
+Create Playlists: Create plain text files (e.g., morning, afternoon, evening) in the project directory. Each file should contain the absolute paths to your media files, one per line. For images, you can specify a display duration in seconds:
+
 
 /home/pi/media_display_project/image1.jpg, 8
 /home/pi/media_display_project/image2.png, 10
@@ -69,48 +70,47 @@ Create Playlists: Create plain text files (e.g., morning, afternoon, video1) in 
 
 Run the Player:
 
-
 python3 /home/pi/media_display_project/media_display.py
-
 Running on Boot
 
-To automatically start the media player on boot, add the following line to your crontab:
+To automatically start the media player on boot, open your crontab:
+
 
 crontab -e
-
-And add:
+```And add the following line at the end of the file:
 
 @reboot /usr/bin/python3 /home/pi/media_display_project/media_display.py
 
-🔧 Configuration
-Scheduler
+---
+
+## 🔧 Configuration
+
+### **Scheduler**
 
 The script can automatically play a specific playlist based on the time of day:
+*   **Morning**: After 08:00
+*   **Afternoon**: After 13:00
+*   **Evening**: After 18:00
 
-Morning: After 08:00
+You can enable or disable this feature by editing the `ENABLE_SCHEDULER` variable in the `media_display.py` script.
 
-Afternoon: After 13:00
+### **GPIO Buttons**
 
-Evening: After 18:00
+The default GPIO button configuration is as follows (BCM pin numbering):
+*   **GPIO 17**: Image playlist
+*   **GPIO 27**: Video playlist
+*   **GPIO 22**: Mixed-media playlist
 
-You can enable or disable this feature by editing the ENABLE_SCHEDULER variable in the media_display.py script.
+These pins are configurable within the script.
 
-GPIO Buttons
+---
 
-The GPIO button configuration is as follows:
+## 🤝 Contributing
 
-GPIO 17: Image playlist
+Contributions, issues, and feature requests are welcome! Feel free to check the **Issues** page of this repository.
 
-GPIO 27: Video playlist
+---
 
-GPIO 22: Mixed-media playlist
+## 📝 License
 
-These are configurable within the script.
-
-🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
-
-📝 License
-
-This project is MIT licensed.
+This project is licensed under the MIT License.
