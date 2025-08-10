@@ -49,7 +49,7 @@ You can find them in : 📋 [Dependencies Installation Guide](Docs/Dependencies.
 This project supports an optional Real-Time Clock (RTC) module and GPIO buttons for enhanced functionality.
 
 RTC Module: For accurate timekeeping, especially when offline. 
-RTC Setup can be found in : [RTC Setup](Set_Up/RTC_Setup.md)
+RTC Setup can be found in : [RTC Setup](Set Up/RTC_Setup.md)
 
 GPIO Buttons: For manual playlist selection.
 
