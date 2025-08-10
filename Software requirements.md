@@ -36,6 +36,7 @@ sudo apt install -y i2c-tools
 
 ## Python Libraries
 
+
 ### Install Core Python Dependencies
 ```bash
 pip3 install pygame
