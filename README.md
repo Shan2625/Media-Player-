@@ -81,11 +81,11 @@ crontab -e
 ``And add the following line at the end of the file:
 
 # Auto-start media display application
- 
+ ```
 @reboot sleep 3 && hwclock --hctosys (Sync system time from hardware clock on boot (More on RTC Setup))
 
 @reboot sleep 7 && sudo -u pi bash -c "export DISPLAY=:0 && source /home/pi/EGL314Shan/bin/activate && cd /home/pi/media_display_project && python3 /home/pi/media_display_project/media_display.py"
-
+```
 ---
 
 ## 🔧 Configuration
