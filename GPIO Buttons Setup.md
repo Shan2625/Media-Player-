@@ -40,14 +40,7 @@ sudo apt install python3-pip
 pip3 install RPi.GPIO
 ```
 
-### 2. Enable GPIO Access
-
-Add your user to the gpio group:
-```bash
-sudo usermod -a -G gpio pi
-```
-
-### 3. Basic Button Test Script
+### 2. Basic Button Test Script
 
 Create a test file to verify button functionality:
 
