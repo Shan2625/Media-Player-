@@ -107,7 +107,7 @@ These pins are configurable within the script.
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the **Issues** page of this repository.
+Contributions, issues, and feature requests are welcome! 
 
 ---
 
