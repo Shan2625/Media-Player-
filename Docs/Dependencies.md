@@ -87,7 +87,7 @@ python3 -c "import vlc; print('VLC Python bindings installed successfully')"
 python3 -c "import RPi.GPIO as GPIO; print('RPi.GPIO installed successfully')"
 ```
 
-### 4. Test All Imports from Your Code
+### 4. Test All Imports from the Code
 
 ```bash
 python3 -c "
