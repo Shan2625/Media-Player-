@@ -7,19 +7,19 @@ A Python-based fullscreen media player for Raspberry Pi that plays images and vi
 
 ✨ Features
 
-Image and Video Playback: Plays JPG, PNG, and MP4 files seamlessly in a single, fullscreen window.
+- Image and Video Playback: Plays JPG, PNG, and MP4 files seamlessly in a single, fullscreen window.
 
-GPIO Button Control: Switch between image-only, video-only, and mixed-media playlists using physical buttons.
+- GPIO Button Control: Switch between image-only, video-only, and mixed-media playlists using physical buttons.
 
-Scheduled Playback: Automatically starts playlists based on the time of day (morning, afternoon, evening).
+- Scheduled Playback: Automatically starts playlists based on the time of day (morning, afternoon, evening).
 
-Customizable Playlists: Create simple text files to manage your media and display durations.
+- Customizable Playlists: Create simple text files to manage your media and display durations.
 
-Display Orientation: Toggle between portrait and landscape modes.
+- Display Orientation: Toggle between portrait and landscape modes.
 
-Looping Playback: All playlists loop indefinitely for continuous display.
+- Looping Playback: All playlists loop indefinitely for continuous display.
 
-Easy Exit: Press the ESC key to cleanly exit the application.
+- Easy Exit: Press the ESC key to cleanly exit the application.
 
 🚀 Getting Started
 Prerequisites
@@ -34,12 +34,6 @@ Clone or download this repository to your Raspberry Pi.
 
 Install the required Python packages:
 
-code
-Bash
-download
-content_copy
-expand_less
-
 pip3 install pygame python-vlc RPi.GPIO
 
 Install the necessary system libraries:
@@ -47,7 +41,8 @@ Install the necessary system libraries:
 sudo apt update
 sudo apt install python3-vlc vlc libvlc-dev python3-pygame x11-utils alsa-utils
 
-Hardware Setup
+
+🛠️ Hardware Setup
 
 This project supports an optional Real-Time Clock (RTC) module and GPIO buttons for enhanced functionality.
 
@@ -56,6 +51,7 @@ RTC Module: For accurate timekeeping, especially when offline.
 GPIO Buttons: For manual playlist selection.
 
 Note: Detailed instructions for setting up the RTC module and wiring the GPIO buttons can be found in the HARDWARE.md file.
+
 
 ⚙️ Usage
 
@@ -71,7 +67,9 @@ Create Playlists: Create plain text files (e.g., morning, afternoon, evening) in
 Run the Player:
 
 python3 /home/pi/media_display_project/media_display.py
-Running on Boot
+
+
+🏃🏻 Running on Boot
 
 To automatically start the media player on boot, open your crontab:
 
