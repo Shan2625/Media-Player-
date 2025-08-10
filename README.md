@@ -21,7 +21,7 @@ A Python-based fullscreen media player for Raspberry Pi that plays images and vi
 
 - Easy Exit: Press the ESC key to cleanly exit the application.
 
-- Auto start on boot 
+- Auto-start on boot 
 
 🚀 Getting Started :
 
@@ -80,7 +80,7 @@ To automatically start the media player on boot, open your crontab:
 crontab -e
 ``And add the following line at the end of the file:
 
-# Start media display application
+# Auto-start media display application
  
 @reboot sleep 3 && hwclock --hctosys (Sync system time from hardware clock on boot (More on RTC Setup))
 
