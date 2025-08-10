@@ -49,15 +49,16 @@ You can find them in : 📋 [Dependencies Installation Guide](Docs/Dependencies.
 This project supports an optional Real-Time Clock (RTC) module and GPIO buttons for enhanced functionality.
 
 RTC Module: For accurate timekeeping, especially when offline. 
-RTC Setup can be found in : [RTC Setup](Set_Up/RTC_Setup.md)
+
 
 GPIO Buttons: For manual playlist selection.
-GPIO Buttons Setup can be found in : [GPIO Buttons Setup](Set_Up/GPIO_Buttons_Setup.md)
+
 
 Hardware required can be found in : [Hardware requirements](Docs/Hardware.md)
 
-Note: Detailed instructions for setting up the RTC module and wiring the GPIO buttons can be found in Set up folder in their
-respective RTC Setup and GPIO Button Setup file.
+Note: Detailed instructions for setting up the RTC module and wiring the GPIO buttons can be found in :
+RTC Setup can be found in :[RTC Setup](Set_Up/RTC_Setup.md)
+GPIO Buttons Setup can be found in :[GPIO Buttons Setup](Set_Up/GPIO_Buttons_Setup.md)
 
 
 # ⚙️ Usage :
