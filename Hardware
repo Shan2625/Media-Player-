@@ -12,7 +12,7 @@ Male-to-Female Jumper Wires: For connecting the push buttons to the Raspberry Pi
 Power Supply (5V 3A):A reliable power source for the Raspberry Pi.
 Breadboard: To test and use the GPIO buttons.
 External Speakers: Needed for audio playback if you're using video media.
-
+RTC module DS3231; To keep track of time for Raspberry PI.
 
 
 GPIO Pin Assignments (BCM Numbering)
