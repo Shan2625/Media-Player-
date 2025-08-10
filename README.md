@@ -36,9 +36,9 @@ Software Installation
 Clone or download this repository to your Raspberry Pi.
 
 Install the required Python packages:
-
+```
 pip3 install pygame python-vlc RPi.GPIO
-
+```
 Install the necessary system libraries:
 You can find them in : 📋 [Dependencies Installation Guide](Docs/Dependencies.md)
 
