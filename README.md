@@ -5,7 +5,7 @@ Raspberry Pi Media Display Player
 
 A Python-based fullscreen media player for Raspberry Pi that plays images and videos in scheduled loops or via GPIO button control. It is designed for hands-free digital signage with minimal setup.
 
-✨ Features :
+# ✨ Features :
 
 - Image and Video Playback: Plays JPG, PNG, and MP4 files seamlessly in a single, fullscreen window.
 
@@ -23,7 +23,7 @@ A Python-based fullscreen media player for Raspberry Pi that plays images and vi
 
 - Auto-start on boot 
 
-🚀 Getting Started :
+# 🚀 Getting Started :
 
 Prerequisites
 
@@ -44,11 +44,12 @@ You can find them in : 📋 [Dependencies Installation Guide](Docs/Dependencies.
 
 
 
-🛠️ Hardware Setup :
+# 🛠️ Hardware Setup :
 
 This project supports an optional Real-Time Clock (RTC) module and GPIO buttons for enhanced functionality.
 
-RTC Module: For accurate timekeeping, especially when offline.
+RTC Module: For accurate timekeeping, especially when offline. 
+RTC Setup can be found in : [RTC Setup](Set_Up/RTC_Setup.md)
 
 GPIO Buttons: For manual playlist selection.
 
@@ -58,7 +59,7 @@ Note: Detailed instructions for setting up the RTC module and wiring the GPIO bu
 respective RTC Setup and GPIO Button Setup file.
 
 
-⚙️ Usage :
+# ⚙️ Usage :
 
 Place Your Media: Add your image and video files to the project folder.
 
@@ -72,7 +73,7 @@ Run the Player:
 python3 /home/pi/media_display_project/media_display.py
 
 
-🏃🏻 Running on Boot :
+# 🏃🏻 Running on Boot :
 
 To automatically start the media player on boot, open your crontab:
 
