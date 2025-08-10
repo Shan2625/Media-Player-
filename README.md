@@ -50,7 +50,7 @@ RTC Module: For accurate timekeeping, especially when offline.
 
 GPIO Buttons: For manual playlist selection.
 
-Hardware required can be found in : [Hardware requirements](Docs/Hardware requirements.md)
+Hardware required can be found in : [Hardware requirements](Docs/Hardwarerequirements.md)
 
 Note: Detailed instructions for setting up the RTC module and wiring the GPIO buttons can be found in Set up folder in their
 respective RTC Setup and GPIO Button Setup file.
