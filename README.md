@@ -63,6 +63,8 @@ Place Your Media: Add your image and video files to the project folder.
 Create Playlists: Create plain text files (e.g., morning, afternoon, evening) in the project directory. Each file should contain the absolute paths to your media files, one per line. For images, you can specify a display duration in seconds:
 
 Playlist Formats can be found in: [Playlists Format](Examples/PlaylistsFormat.txt)
+
+
 Run the Player:
 
 python3 /home/pi/media_display_project/media_display.py
