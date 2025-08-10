@@ -98,6 +98,7 @@ The script can automatically play a specific playlist based on the time of day:
 *   **Evening**: After 18:00
 
 You can enable or disable this feature by editing the `ENABLE_SCHEDULER` variable in the `media_display.py` script. 
+
 Python code can be found in : [Main code](Main.py)
 
 ### **GPIO Buttons**
